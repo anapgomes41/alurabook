@@ -24,7 +24,7 @@ O AluraBook é um site de livros feito com **HTML5** e **CSS3**, seguindo a abor
 ## Visualizar
 
 Projeto online:  
-[**Clique aqui para ver**](https://seuusuario.github.io/alurabook)
+[**Clique aqui para ver**](https://anapgomes41.github.io/alurabook/)
 
 ## Aprendizados
 
