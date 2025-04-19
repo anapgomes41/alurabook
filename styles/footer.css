@@ -1,0 +1,60 @@
+.rodape {
+    border: 1px solid;  
+    text-align: center;
+    padding: 1em;
+    background-color: var(--cor-de-fundo);
+}
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .lista-rodape {
+        display: block;
+    }
+    
+    .rodape {
+        display: flex;
+        background-color: var(--cor-de-fundo);
+        justify-content: space-between;
+    }
+
+    .rodape__alura {
+        font-size: 24px;
+    }
+
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        margin: 0.5em;
+    }
+
+    .lista-rodape {
+        font-size: 14px;
+        margin: 0.5em;
+    }
+
+    .lista-rodape__link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .lista-rodape__item img,
+    .lista-menu__item img {
+    margin-right: 8px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .rodape {
+        padding: 2em;
+    }
+
+    .lista-rodape {
+        border-left: 1px solid var(--cinza);
+        padding-left: 0.5em;
+    }
+}

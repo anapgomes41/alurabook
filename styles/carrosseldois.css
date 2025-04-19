@@ -1,0 +1,122 @@
+.carrosseldois__titulo {
+    background-color: var(--branco);
+    text-align: center;
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em;
+}
+
+.swiper-slide img {
+    width: 90%;
+    display: block;
+    margin: 1em auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
+}
+
+.swiper-pagination {
+    position: initial;
+    text-align: center;
+}
+
+.carddois {
+    background-color: var(--branco);
+    box-shadow: 0px 4px 4px grey(0, 0, 0, 0.25);
+    margin: 1em;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.carddois__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricaodois__titulo {
+    font-size: 16px;
+    color: var(--laranja);
+    font-weight: 700;
+    text-align: left;
+}
+
+.descricaodois__autora {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul-degrade);
+    margin: 0.5em;
+}
+
+.descricaodois__texto {
+    color: black;
+    font-size: 14px;
+}
+
+.carddois__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoesdois {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoesdois__ancora {
+    text-decoration: none;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: 700;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-right: 0.3em;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .carrosseldois__titulo {
+        font-size: 26px;
+        margin: 1em 0;
+    }
+    
+    .carddois {
+        width: 60%;
+        margin: 1em 20vw;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrosseldois__container {
+        display: flex;
+        padding: 6em;
+    }
+
+    .carrosseldois__titulo {
+        padding: 1em;
+        font-size: 32px;
+    }
+
+    .carddois {
+        width: 50%;
+        margin: 4em 1em;
+        margin-left: 2em;
+    }
+
+    .descricaodois__titulo {
+        font-size: 32px;
+    }
+
+    .descricaodois__texto {
+        font-size: 16px;
+        margin: 1em;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+}
